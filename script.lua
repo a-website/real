@@ -1,3 +1,4 @@
+repeat wait() until game:IsLoaded()
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Health, false)
 game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
