@@ -1,9 +1,3 @@
-repeat wait() until game:IsLoaded()
-game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.PlayerList, false)
-game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Health, false)
-game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Chat, false)
-game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, false)
-game.StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.EmotesMenu, false)
 local coregui = game.CoreGui:GetDescendants()
 while true do
     task.wait()
