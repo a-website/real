@@ -1,4 +1,3 @@
-repeat wait() until game:IsLoaded()
 local coregui = game.CoreGui:GetDescendants()
 while true do
     task.wait()
